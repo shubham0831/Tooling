@@ -1,5 +1,7 @@
 Config file (yaml)
 
+Below is an example of what all you need to specify in the config file
+```
 # Description: Configuration file for workflow automator
 
 # App you use for your meetings. Currently only supporting zoom, in the future will add support for 
@@ -27,3 +29,4 @@ workflow_tool: "jira"
 jira_server : "",
 jira_username : "",
 jira_token : "",
+```
