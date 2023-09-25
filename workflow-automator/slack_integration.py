@@ -140,7 +140,7 @@ import re
 import json
 
 # Slack API configuration
-SLACK_TOKEN = 'xoxb-86937043857-5570860957041-pp8iRPv8F6itkjhjgcbP6gr8'  # Replace with your Slack bot token
+SLACK_TOKEN = ''  # Replace with your Slack bot token
 SLACK_CHANNEL = '#slack-bot-test-channel'  # Replace with the channel name or ID where you want to send the message
 
 client = WebClient(token=SLACK_TOKEN)

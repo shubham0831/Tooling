@@ -144,16 +144,16 @@ from jira import JIRA
 
 anthropic = Anthropic(
     # defaults to os.environ.get("ANTHROPIC_API_KEY")
-    api_key="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",
+    api_key="",
 )
 
 # Replace these values with your own Jira instance URL and credentials
 JIRA_SERVER = 'https://clouddeployer.atlassian.net'
 JIRA_USERNAME = 'spareek@dons.usfca.edu'
-JIRA_API_TOKEN =  "ATATT3xFfGF0tqBW-B40ZwRH3aEKC9ENRKP-JPoVbGjtZ6hn3e9ofy-AEpHD2vBG0bvrHUaGb-AQaclkcEK4a9x7I0E0-qlQhO5KWzeLU4KUUoZLX6r4EIdUbMXn6bN4UQQLPrRPJje19n-VZeYGtu-020ftn9cffnj9jXLcSp0lNBjn-D9HUX8=AE6F7B0C"
+JIRA_API_TOKEN =  ""
 
 # Slack API configuration
-SLACK_TOKEN = 'xoxb-86937043857-5570860957041-JJ4uVZjn9xol4qakCVKIdMNc'
+SLACK_TOKEN = ''
 SLACK_CHANNEL = '#slack-bot-test-channel' 
 
 def generate_prompt(prompt_dict) -> str:
