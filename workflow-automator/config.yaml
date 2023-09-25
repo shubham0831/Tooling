@@ -25,3 +25,6 @@ workflow_tool: "jira"
 jira_server : "",
 jira_username : "",
 jira_token : "",
+
+#changing config.yaml to see whether gitignore is working as expected or not
+#
